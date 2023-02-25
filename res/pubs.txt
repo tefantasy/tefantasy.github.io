@@ -1,0 +1,6 @@
+# Format:
+# authors | title | conf/journal | conf/journal abbr. | other info
+
+Shiju Lin, Jinwei Liu, Tianji Liu, Martin D.F. Wong, Evangeline F.Y. Young | NovelRewrite: Node-Level Parallel AIG Rewriting | 59th ACM/IEEE Design Automation Conference | DAC | 2022
+
+Tianji Liu, Evangeline F.Y. Young | Rethinking AIG Resynthesis in Parallel | accepted by 60th ACM/IEEE Design Automation Conference | DAC | 2023
