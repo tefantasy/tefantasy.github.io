@@ -21,15 +21,16 @@ function loadPubs(text) {
     var pubs = document.getElementById("pubs");
     pubs.innerHTML = "";
     
-    // five fields: authors, title, conf/journal, conf/journal abbr., other info.
-    var data = parseText(text, 5);
+    // six fields: authors, title, conf/journal, conf/journal abbr., year, other info.
+    var data = parseText(text, 6);
 
-    for (let i = 0; i < data.length; i++) {
+    // in reversed order, i.e., the latest appears first
+    for (let i = data.length - 1; i >= 0; i--) {
         const record = data[i];
         let li = document.createElement("li");
         let lineText = record[0].replaceAll(name, boldName) + ", \""
                      + record[1] + "\", " + record[2] + " (<b>" + record[3]
-                     + "</b>), " + record[4] + ".";
+                     + "</b>), " + record[4] + ". " + record[5];
         li.innerHTML = lineText;
         pubs.appendChild(li);
     }
