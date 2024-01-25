@@ -5,6 +5,6 @@
 
 Shiju Lin, Jinwei Liu, Tianji Liu, Martin D.F. Wong, Evangeline F.Y. Young | NovelRewrite: Node-Level Parallel AIG Rewriting | 59th ACM/IEEE Design Automation Conference | DAC | 2022 | [<a href="https://github.com/cuhk-eda/CULS" target="_blank">code</a>]
 
-Tianji Liu, Evangeline F.Y. Young | Rethinking AIG Resynthesis in Parallel | 60th ACM/IEEE Design Automation Conference | DAC | 2023 | (<b>Best Paper Award Nomination</b>) [<a href="https://github.com/cuhk-eda/CULS" target="_blank">code</a>]
+Tianji Liu, Evangeline F.Y. Young | Rethinking AIG Resynthesis in Parallel | 60th ACM/IEEE Design Automation Conference | DAC | 2023 | (<b>Best Paper Award Nomination</b>) [<a href="https://github.com/cuhk-eda/CULS" target="_blank">code</a>] [<a href="docs/dac23_gpu_logic_resyn.pdf" target="_blank">paper</a>] [<a href="docs/dac23_gpu_logic_resyn_slides.pdf" target="_blank">slides</a>]
 
-Tianji Liu, Lei Chen, Xing Li, Mingxuan Yuan, Evangeline F.Y. Young | FineMap: A Fine-grained GPU-parallel LUT Mapping Engine | 29th Asia and South Pacific Design Automation Conference | ASP-DAC | 2024 | (<b>Best Paper Award</b>)
+Tianji Liu, Lei Chen, Xing Li, Mingxuan Yuan, Evangeline F.Y. Young | FineMap: A Fine-grained GPU-parallel LUT Mapping Engine | 29th Asia and South Pacific Design Automation Conference | ASP-DAC | 2024 | (<b>Best Paper Award</b>) [<a href="docs/aspdac24_gpu_lutmap.pdf" target="_blank">paper</a>] [<a href="docs/aspdac24_gpu_lutmap_slides.pdf" target="_blank">slides</a>]
