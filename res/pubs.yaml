@@ -1,0 +1,30 @@
+# write new pub in the end
+
+- authors: "Shiju Lin, Jinwei Liu, Tianji Liu, Martin D.F. Wong, Evangeline F.Y. Young"
+  title: "NovelRewrite: Node-Level Parallel AIG Rewriting"
+  conf: "59th ACM/IEEE Design Automation Conference"
+  abbr: "DAC"
+  year: 2022
+  links:
+    - [code, "https://github.com/cuhk-eda/CULS"]
+
+- authors: "Tianji Liu, Evangeline F.Y. Young"
+  title: "Rethinking AIG Resynthesis in Parallel"
+  conf: "60th ACM/IEEE Design Automation Conference"
+  abbr: "DAC"
+  year: 2023
+  other_info: "(<b>Best Paper Award Nomination</b>)"
+  links:
+    - [code, "https://github.com/cuhk-eda/CULS"]
+    - [paper, "docs/dac23_gpu_logic_resyn.pdf"]
+    - [slides, "docs/dac23_gpu_logic_resyn_slides.pdf"]
+
+- authors: "Tianji Liu, Lei Chen, Xing Li, Mingxuan Yuan, Evangeline F.Y. Young"
+  title: "FineMap: A Fine-grained GPU-parallel LUT Mapping Engine"
+  conf: "29th Asia and South Pacific Design Automation Conference"
+  abbr: "ASP-DAC"
+  year: 2024
+  other_info: "(<b>Best Paper Award</b>)"
+  links:
+    - [paper, "docs/aspdac24_gpu_lutmap.pdf"]
+    - [slides, "docs/aspdac24_gpu_lutmap_slides.pdf"]
