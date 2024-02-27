@@ -28,3 +28,16 @@
   links:
     - [paper, "docs/aspdac24_gpu_lutmap.pdf"]
     - [slides, "docs/aspdac24_gpu_lutmap_slides.pdf"]
+
+- authors: "Lixin Liu, Tianji Liu, Bentian Jiang, Evangeline F.Y. Young"
+  title: "Parmesan: Efficient Partitioning and Mapping Flow for DNN Training on General Device Topology"
+  jour: "accepted by IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+  abbr: "TCAD"
+  year: 2024
+
+- authors: "Yang Sun*, Tianji Liu*, Martin D.F. Wong, Evangeline F.Y. Young"
+  title: "Massively Parallel AIG Resubstitution"
+  conf: "accepted by 61th ACM/IEEE Design Automation Conference"
+  abbr: "DAC"
+  year: 2024
+

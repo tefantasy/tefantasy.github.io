@@ -1,8 +1,0 @@
-# Format:
-# award | other info
-
-Best Paper Award, 29th Asia and South Pacific Design Automation Conference | 2024
-DAC Young Fellow | 2023
-Second Place in CAD Contest at ICCAD on "Microarchitecture Design Space Exploration" | 2022
-Hong Kong, China - Asia-Pacific Economic Cooperation Scholarship | 2022
-First Place in CAD Contest at ICCAD on "GPU-Accelerated Logic Rewriting" | 2021
