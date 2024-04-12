@@ -41,3 +41,8 @@
   abbr: "DAC"
   year: 2024
 
+- authors: "Tianji Liu*, Qijing Wang*, Lixin Liu, Fangzhou Wang, Evangeline F.Y. Young"
+  title: "On Advanced Methodologies for Microarchitecture Design Space Exploration"
+  conf: "accepted by Great Lakes Symposium on VLSI"
+  abbr: "GLSVLSI"
+  year: 2024
