@@ -31,7 +31,7 @@
 
 - authors: "Lixin Liu, Tianji Liu, Bentian Jiang, Evangeline F.Y. Young"
   title: "Parmesan: Efficient Partitioning and Mapping Flow for DNN Training on General Device Topology"
-  jour: "accepted by IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+  jour: "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
   abbr: "TCAD"
   year: 2024
 
@@ -43,6 +43,8 @@
 
 - authors: "Tianji Liu*, Qijing Wang*, Lixin Liu, Fangzhou Wang, Evangeline F.Y. Young"
   title: "On Advanced Methodologies for Microarchitecture Design Space Exploration"
-  conf: "accepted by Great Lakes Symposium on VLSI"
+  conf: "Great Lakes Symposium on VLSI"
   abbr: "GLSVLSI"
   year: 2024
+  links:
+    - [paper, "docs/glsvlsi24_dse.pdf"]
