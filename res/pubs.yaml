@@ -35,12 +35,6 @@
   abbr: "TCAD"
   year: 2024
 
-- authors: "Yang Sun*, Tianji Liu*, Martin D.F. Wong, Evangeline F.Y. Young"
-  title: "Massively Parallel AIG Resubstitution"
-  conf: "accepted by 61st ACM/IEEE Design Automation Conference"
-  abbr: "DAC"
-  year: 2024
-
 - authors: "Tianji Liu*, Qijing Wang*, Lixin Liu, Fangzhou Wang, Evangeline F.Y. Young"
   title: "On Advanced Methodologies for Microarchitecture Design Space Exploration"
   conf: "Great Lakes Symposium on VLSI"
@@ -48,3 +42,13 @@
   year: 2024
   links:
     - [paper, "docs/glsvlsi24_dse.pdf"]
+
+- authors: "Yang Sun*, Tianji Liu*, Martin D.F. Wong, Evangeline F.Y. Young"
+  title: "Massively Parallel AIG Resubstitution"
+  conf: "61st ACM/IEEE Design Automation Conference"
+  abbr: "DAC"
+  year: 2024
+  links:
+    - [code, "https://github.com/cuhk-eda/CULS"]
+    - [paper, "docs/dac24_gpu_resub.pdf"]
+    - [slides, "docs/dac24_gpu_resub_slides.pdf"]
