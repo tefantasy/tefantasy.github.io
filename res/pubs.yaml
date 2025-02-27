@@ -63,3 +63,9 @@
   year: 2024
   links:
     - [executable, "https://github.com/cuhk-eda/CULS?tab=readme-ov-file#executable-of-lut-mapping-and-mapping-based-optimization"]
+
+- authors: "Tianji Liu, Evangeline F.Y. Young"
+  title: "Simulation-based Parallel Sweeping: A New Perspective on Combinational Equivalence Checking"
+  conf: "accepted at 62nd ACM/IEEE Design Automation Conference"
+  abbr: "DAC"
+  year: 2025
