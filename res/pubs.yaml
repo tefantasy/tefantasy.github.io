@@ -38,7 +38,7 @@
   abbr: "TCAD"
   year: 2024
 
-- authors: "Tianji Liu*, Qijing Wang*, Lixin Liu, Fangzhou Wang, Evangeline F.Y. Young"
+- authors: "Tianji Liu, Qijing Wang, Lixin Liu, Fangzhou Wang, Evangeline F.Y. Young"
   title: "On Advanced Methodologies for Microarchitecture Design Space Exploration"
   conf: "Great Lakes Symposium on VLSI"
   abbr: "GLSVLSI"
@@ -56,7 +56,7 @@
     - [paper, "docs/dac24_gpu_resub.pdf"]
     - [slides, "docs/dac24_gpu_resub_slides.pdf"]
 
-- authors: "Tianji Liu*, Yang Sun*, Lei Chen, Xing Li, Mingxuan Yuan, Evangeline F.Y. Young"
+- authors: "Tianji Liu, Yang Sun, Lei Chen, Xing Li, Mingxuan Yuan, Evangeline F.Y. Young"
   title: "A Unified Parallel Framework for LUT Mapping and Logic Optimization"
   jour: "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
   abbr: "TCAD"
@@ -66,6 +66,9 @@
 
 - authors: "Tianji Liu, Evangeline F.Y. Young"
   title: "Simulation-based Parallel Sweeping: A New Perspective on Combinational Equivalence Checking"
-  conf: "accepted at 62nd ACM/IEEE Design Automation Conference"
+  conf: "62nd ACM/IEEE Design Automation Conference"
   abbr: "DAC"
   year: 2025
+  links:
+    - [paper, "docs/dac25_gpu_cec.pdf"]
+    - [slides, "docs/dac25_gpu_cec_slides.pdf"]
