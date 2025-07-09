@@ -1,29 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://tefantasy.github.io/index.html</loc>
-    <changefreq>monthly</changefreq>
-  </url>
+<url>
+<loc>https://tefantasy.github.io/</loc>
+<priority>1.00</priority>
+</url>
 
-  <url>
-    <loc>https://tefantasy.github.io/docs/dac23_gpu_logic_resyn.pdf</loc>
-    <changefreq>yearly</changefreq>
-  </url>
+<url>
+<loc>https://tefantasy.github.io/docs/dac25_gpu_cec.pdf</loc>
+<priority>0.80</priority>
+</url>
 
-  <url>
-    <loc>https://tefantasy.github.io/docs/aspdac24_gpu_lutmap.pdf</loc>
-    <changefreq>yearly</changefreq>
-  </url>
+<url>
+<loc>https://tefantasy.github.io/docs/dac25_gpu_cec_slides.pdf</loc>
+<priority>0.80</priority>
+</url>
 
-  <url>
-    <loc>https://tefantasy.github.io/docs/glsvlsi24_dse.pdf</loc>
-    <changefreq>yearly</changefreq>
-  </url>
+<url>
+<loc>https://tefantasy.github.io/docs/dac24_gpu_resub.pdf</loc>
+<priority>0.80</priority>
+</url>
 
-  <url>
-    <loc>https://tefantasy.github.io/docs/dac24_gpu_resub.pdf</loc>
-    <changefreq>yearly</changefreq>
-  </url>
+<url>
+<loc>https://tefantasy.github.io/docs/dac24_gpu_resub_slides.pdf</loc>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://tefantasy.github.io/docs/glsvlsi24_dse.pdf</loc>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://tefantasy.github.io/docs/aspdac24_gpu_lutmap.pdf</loc>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://tefantasy.github.io/docs/aspdac24_gpu_lutmap_updated_results.pdf</loc>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://tefantasy.github.io/docs/aspdac24_gpu_lutmap_slides.pdf</loc>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://tefantasy.github.io/docs/dac23_gpu_logic_resyn.pdf</loc>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://tefantasy.github.io/docs/dac23_gpu_logic_resyn_updated_results.pdf</loc>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://tefantasy.github.io/docs/dac23_gpu_logic_resyn_slides.pdf</loc>
+<priority>0.80</priority>
+</url>
 
 </urlset>

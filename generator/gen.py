@@ -3,7 +3,7 @@ import yaml
 
 # should be called from the root dir
 my_name = "Tianji Liu"
-
+website_url = "https://tefantasy.github.io/"
 
 def gen_pubs(pubs):
     html = ""
@@ -60,6 +60,27 @@ def gen_awards(awards):
     return html
 
 
+def gen_sitemap(pubs):
+    block_templ = '<url>\n<loc>%s</loc>\n<priority>%s</priority>\n</url>\n\n'
+
+    sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n\n'
+
+    sitemap += block_templ % (website_url, "1.00")
+    
+    for pub in reversed(pubs):
+        if "links" not in pub:
+            continue
+        
+        for _, link in pub["links"]:
+            if link.startswith("https:"):
+                continue
+            full_link = website_url + link
+            sitemap += block_templ % (full_link, "0.80")
+    sitemap += "</urlset>\n"
+
+    return sitemap
+
 # load HTML template
 with open("index.html.tmpl", "r") as f:
     html_template = f.read()
@@ -80,3 +101,8 @@ index_html = index_html.replace("__UPDATE_TIME__", time.strftime("%b %d, %Y", ti
 
 with open("index.html", "w") as f:
     f.write(index_html)
+
+# generate sitemap
+sitemap_xml = gen_sitemap(pubs)
+with open("res/sitemap.xml", "w") as f:
+    f.write(sitemap_xml)
