@@ -42,6 +42,7 @@ def gen_citation_meta(pub):
 
 def gen_pubs(pubs):
     html = ""
+    meta_pathes = {}
     bold_my_name = "<b>" + my_name + "</b>"
 
     # show in reversed order
@@ -75,9 +76,10 @@ def gen_pubs(pubs):
         if "citation_meta" in pub and pub["citation_meta"]:
             citation_meta_path = gen_citation_meta(pub)
             html += '<a href="%s" style="display:none;">Metadata</a>' % citation_meta_path
+            meta_pathes[pub["title"]] = citation_meta_path
         
         html += "\n</li>\n"
-    return html
+    return html, meta_pathes
 
 def gen_awards(awards):
     html = ""
@@ -99,7 +101,7 @@ def gen_awards(awards):
     return html
 
 
-def gen_sitemap(pubs):
+def gen_sitemap(pubs, meta_pathes):
     block_templ = '<url>\n<loc>%s</loc>\n<priority>%s</priority>\n</url>\n\n'
 
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -116,6 +118,11 @@ def gen_sitemap(pubs):
                 continue
             full_link = website_url + link
             sitemap += block_templ % (full_link, "0.80")
+        
+        if pub["title"] in meta_pathes:
+            meta_path = website_url + meta_pathes[pub["title"]]
+            sitemap += block_templ % (meta_path, "0.80")
+
     sitemap += "</urlset>\n"
 
     return sitemap
@@ -130,7 +137,7 @@ with open("res/pubs.yaml", "r") as f:
 with open("res/awards.yaml", "r") as f:
     awards = yaml.safe_load(f)
 
-pubs_html = gen_pubs(pubs)
+pubs_html, meta_pathes = gen_pubs(pubs)
 awards_html = gen_awards(awards)
 
 index_html = html_template.replace("__PUBS__", pubs_html).replace("__AWARDS__", awards_html)
@@ -142,6 +149,6 @@ with open("index.html", "w") as f:
     f.write(index_html)
 
 # generate sitemap
-sitemap_xml = gen_sitemap(pubs)
+sitemap_xml = gen_sitemap(pubs, meta_pathes)
 with open("res/sitemap.xml", "w") as f:
     f.write(sitemap_xml)
