@@ -4,6 +4,41 @@ import yaml
 # should be called from the root dir
 my_name = "Tianji Liu"
 website_url = "https://tefantasy.github.io/"
+citation_meta_dir = "docs/"
+
+def gen_citation_meta(pub):
+    # find PDF file path
+    pdf_path, pdf_name = None, None
+    if "links" in pub:
+        for text, link in pub["links"]:
+            if text == "paper" and not link.startswith("https:"):
+                pdf_path = website_url + link
+                pdf_name = link.split("/")[-1].split(".")[0]
+                break
+    if pdf_path is None:
+        print("Generate citation meta failed for paper: %s" % pub["title"])
+        exit(1)
+
+    html = "<!DOCTYPE html>\n<html>\n<head>\n"
+    html += "<title>Paper Meta</title>\n"
+
+    # meta tags
+    html += '<meta name="citation_title" content="%s">\n' % pub["title"]
+    authors = [author.strip().replace("*", "") for author in pub["authors"].split(",")]
+    for author in authors:
+        html += '<meta name="citation_author" content="%s">\n' % author
+    html += '<meta name="citation_publication_date" content="%d">\n' % pub["year"]
+    html += '<meta name="citation_pdf_url" content="%s">\n' % pdf_path
+
+    # other info
+    html += "</head>\n<body>\n"
+    html += "<p>Meta data for %s</p>\n" % pub["title"]
+    html += "</body>\n</html>\n"
+
+    citation_meta_path = citation_meta_dir + "%s_meta.html" % pdf_name
+    with open(citation_meta_path, "w") as f:
+        f.write(html)
+    return citation_meta_path
 
 def gen_pubs(pubs):
     html = ""
@@ -36,6 +71,10 @@ def gen_pubs(pubs):
         if "links" in pub:
             for text, link in pub["links"]:
                 html += '[<a href="%s" target="_blank">%s</a>] ' % (link, text)
+
+        if "citation_meta" in pub and pub["citation_meta"]:
+            citation_meta_path = gen_citation_meta(pub)
+            html += '<a href="%s" style="display:none;">Metadata</a>' % citation_meta_path
         
         html += "\n</li>\n"
     return html

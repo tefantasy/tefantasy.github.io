@@ -73,3 +73,4 @@
     - [paper, "docs/dac25_gpu_cec.pdf"]
     - [slides, "docs/dac25_gpu_cec_slides.pdf"]
     - [executable, "https://github.com/cuhk-eda/CULS?tab=readme-ov-file#other-algorithms-developed-on-top-of-culs"]
+  citation_meta: true
