@@ -74,3 +74,16 @@
     - [slides, "docs/dac25_gpu_cec_slides.pdf"]
     - [executable, "https://github.com/cuhk-eda/CULS?tab=readme-ov-file#other-algorithms-developed-on-top-of-culs"]
   citation_meta: true
+
+- authors: "Zhenxuan Xie, Lixin Liu, Tianji Liu, Evangeline F.Y. Young"
+  title: "ExactMap: Enhancing Delay Optimization in Parallel ASIC Technology Mapping"
+  conf: "44th IEEE/ACM International Conference on Computer-Aided Design"
+  abbr: "ICCAD"
+  year: 2025
+  other_info: "(<b>Best Paper Award Nomination</b>)"
+
+- authors: "Tianji Liu, Nutdranai Jaruthikorn, Shiju Lin, Bentian Jiang, Guannan Guo, Weihua Sheng, Evangeline F.Y. Young"
+  title: "Efficient and Effective E-graph-based Logic Optimization"
+  jour: "ACM Transactions on Design Automation of Electronic Systems"
+  abbr: "TODAES"
+  year: 2025
