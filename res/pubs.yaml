@@ -87,3 +87,10 @@
   jour: "ACM Transactions on Design Automation of Electronic Systems"
   abbr: "TODAES"
   year: 2025
+
+- authors: "Tianji Liu, Evangeline F.Y. Young"
+  title: "Simulation-based Combinational Equivalence Checking with Multiple GPUs"
+  jour: "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+  abbr: "TCAD"
+  year: 2026
+
