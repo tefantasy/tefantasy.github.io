@@ -54,7 +54,7 @@ def gen_pubs(pubs):
         html += pub["authors"].replace(my_name, bold_my_name) + ", "
 
         assert "title" in pub
-        html += '"' + pub["title"] + '", '
+        html += '"' + pub["title"] + '," '
 
         assert "conf" in pub or "jour" in pub
         conf_jour = pub["conf"] if "conf" in pub else pub["jour"]
