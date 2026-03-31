@@ -93,4 +93,14 @@
   jour: "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
   abbr: "TCAD"
   year: 2026
+  links:
+    - [executable, "https://github.com/cuhk-eda/CULS?tab=readme-ov-file#other-algorithms-developed-on-top-of-culs"]
+
+- authors: "Yang Sun, Tianji Liu, Martin D.F. Wong, Evangeline F.Y. Young"
+  title: "Scalable Parallel Logic Resubstitution with Advanced Don't Care Optimization"
+  jour: "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+  abbr: "TCAD"
+  year: 2026
+  links:
+    - [executable, "https://github.com/cuhk-eda/CULS?tab=readme-ov-file#other-algorithms-developed-on-top-of-culs"]
 
