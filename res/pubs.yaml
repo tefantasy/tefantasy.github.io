@@ -104,3 +104,14 @@
   links:
     - [executable, "https://github.com/cuhk-eda/CULS?tab=readme-ov-file#other-algorithms-developed-on-top-of-culs"]
 
+- authors: "Zhenxuan Xie, Lixin Liu, Tianji Liu, Evangeline F.Y. Young"
+  title: "UniMap: Unified Sizing and Remapping for ASIC Technology Mapping on GPU"
+  conf: "45th IEEE/ACM International Conference on Computer-Aided Design"
+  abbr: "ICCAD"
+  year: 2026
+
+- authors: "Yang Sun, Tianji Liu, Martin D.F. Wong, Evangeline F.Y. Young"
+  title: "Heterogeneous Synergy: Fusing SAT Solvers and GPU Simulation for CEC"
+  conf: "45th IEEE/ACM International Conference on Computer-Aided Design"
+  abbr: "ICCAD"
+  year: 2026
